@@ -796,6 +796,20 @@ input:focus-visible {
 
     .title .paragraph p {
         font-size: 16px;
+
+        text-align: center !important;
+    }
+
+    .success {
+        margin: 0px !important;
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        color: #1D3867 !important;
+        width: 65px !important;
+    }
+
+    .success .swiper-slide {
+        margin: -5px;
     }
 
     .how .btn-more {
@@ -1085,7 +1099,36 @@ input:focus-visible {
     .policy .card {
         width: 360px !important;
     }
+
+    .Featured .card {
+        width: 10rem !important;
+        padding: 10px !important;
+    }
+
+    .Featured .swiper-slide {
+        margin: -5px !important;
+    }
+
+    .Featured {
+        height: 75vh;
+    }
 }
+
+@media (min-width: 430px) and (max-width: 520px) {
+    .Featured .card {
+        width: 12rem !important;
+        padding: 5px !important;
+    }
+
+    .Featured .swiper-slide {
+        margin: 0px !important;
+    }
+
+    .Featured {
+        height: 105vh;
+    }
+}
+
 
 @media (min-width: 520px) and (max-width: 650px) {
     .hero .back-hero{
