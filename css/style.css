@@ -3356,6 +3356,7 @@ input:focus-visible {
     right: 27px;
     width: max-content;
     height: fit-content;
+    padding: 13px 30px 13px 15px;
 }
 
 .side-icons .phone a {
@@ -3366,7 +3367,7 @@ input:focus-visible {
     right: 0px;
     top: 0px;
     background-color: #1D3867;
-    padding: 10px 15px 13px 15px;
+    padding: 10px 15px 12px 15px;
     border-radius: 15px 0 0 15px;
     color: white;
     font-weight: bold;
@@ -3579,4 +3580,36 @@ footer {
 
 .dropdown .nav-link {
     color: #003366;
+}
+
+.voice {
+    margin-top: -30px;
+    z-index: 1000;
+    position: relative;
+}
+
+.voice .right {
+    padding: 20px;
+    background-color: white;
+}
+
+.voice .right h2{
+    font-size: 30px;
+    color: #003366;
+}
+
+.voice .right p{
+    font-size: 18px;
+    color: #003366;
+    padding: 30px 0;
+}
+
+.voice .right a{
+    font-size: 18px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 3rem;
+    box-shadow: 0px 46px 52px 0px #00336633;
 }
