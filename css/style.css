@@ -3732,3 +3732,93 @@ footer {
     transform: translate(-75% , 0);
     width: 60px;
 }
+
+
+.card-how{
+    margin: 20px 0;
+}
+
+.card-how-left{
+    position: relative;
+}
+
+.card-how-left .card-do {
+    width: 560px;
+    position: relative;
+}
+
+.card-how-left .cont-how {
+    position: absolute;
+    display: flex;
+    top: 15px;
+    left: 15px;
+}
+
+.card-how-left .cont-how .number {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 112px;
+    color: #2A7997;
+    margin: -20px 15px;
+}
+
+.card-how-left .paragraph-how {
+    padding: 0 30px;
+}
+
+.card-how-left .paragraph-how h4 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 20px;
+    color: #003366;
+}
+
+.card-how-left .paragraph-how p {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #003366;
+}
+
+.card-how-right{
+    position: relative;
+}
+
+.card-how-right .card-do {
+    width: 560px;
+    position: relative;
+}
+
+.card-how-right .cont-how {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    top: 15px;
+    right: 15px;
+}
+
+.card-how-right .cont-how .number {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 112px;
+    color: #2A7997;
+    margin: -20px 15px;
+}
+
+.card-how-right .paragraph-how {
+    padding: 0 30px;
+}
+
+.card-how-right .paragraph-how h4 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 25px;
+    color: #003366;
+}
+
+.card-how-right .paragraph-how p {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #003366;
+}
